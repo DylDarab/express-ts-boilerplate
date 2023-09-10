@@ -1,7 +1,8 @@
-import express, { Application } from 'express'
-import dotenv from 'dotenv'
-import routes from './src/routes'
 import cors from 'cors'
+import dotenv from 'dotenv'
+import express, { Application } from 'express'
+
+import routes from './src/routes'
 
 dotenv.config()
 

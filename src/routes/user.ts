@@ -1,6 +1,6 @@
+import { getSomeUser } from 'controllers/user'
 import Router from 'express'
 import { logTime } from 'middlewares/logging'
-import { getSomeUser } from 'controllers/user'
 
 const user = Router()
 
